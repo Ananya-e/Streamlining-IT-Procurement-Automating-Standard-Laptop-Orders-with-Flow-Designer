@@ -2,15 +2,15 @@
 
 ## Project Overview
 
-This project automates the standard laptop procurement process using ServiceNow. It uses Service Catalog and Flow Designer to process a laptop request from submission and approval to fulfillment.
+This project automates the standard laptop procurement process using ServiceNow. It uses Service Catalog and Flow Designer to process a Standard Laptop request from submission and approval to fulfillment.
 
 ## Problem Statement
 
-Manual IT procurement may require separate steps for approving requests, creating fulfillment tasks and assigning them to the Hardware team. This can increase manual effort and may cause delays or incorrect task assignments.
+Manual IT procurement may require separate steps for approving requests, creating fulfillment tasks and assigning them to the Hardware team. This can increase manual effort and may lead to delays or incorrect task assignments.
 
 ## Proposed Solution
 
-The project provides an automated workflow in ServiceNow where a user submits a Standard Laptop request through the Service Catalog. After approval, Flow Designer automatically creates a Catalog Task and assigns it to the Hardware team for laptop configuration.
+The project provides an automated workflow in ServiceNow where a user submits a Standard Laptop request through the Service Catalog. After the request is approved, Flow Designer automatically creates a Catalog Task and assigns it to the Hardware team for laptop configuration and fulfillment.
 
 ## Workflow
 
@@ -37,6 +37,8 @@ Laptop Configuration
 
 ## Project Phases
 
+The project is organized into the following eight phases:
+
 1. Brainstorming & Ideation
 2. Requirement Analysis
 3. Project Design
@@ -49,24 +51,26 @@ Laptop Configuration
 ## Project Benefits
 
 - Reduces manual task creation
-- Automates the procurement workflow
+- Automates the laptop procurement workflow
 - Provides consistent request processing
-- Automatically assigns fulfillment tasks
+- Automatically assigns fulfillment tasks to the Hardware team
 - Improves visibility of the procurement process
 
 ## Project Demonstration
 
-The demonstration shows the complete workflow from submitting a Standard Laptop request through approval, Flow Designer automation, Catalog Task creation and Hardware team assignment.
+The demonstration presents the complete workflow in ServiceNow, starting with the submission of a Standard Laptop request and continuing through approval, Flow Designer automation, Catalog Task creation and Hardware team assignment.
 
 ## Repository Structure
 
+The project documentation is provided as PDF files corresponding to each project phase.
+
 ```text
-Phase-1-Brainstorming-and-Ideation/
-Phase-2-Requirement-Analysis/
-Phase-3-Project-Design/
-Phase-4-Project-Planning/
-Phase-5-Project-Development/
-Phase-6-Project-Testing/
-Phase-7-Project-Documentation/
-Phase-8-Project-Demonstration/
-README.md
+├── Phase_1_Brainstorming_and_Ideation_Laptop_Procurement.pdf
+├── Phase_2_Requirement_Analysis_Laptop_Procurement.pdf
+├── Phase_3_Project_Design_Laptop_Procurement.pdf
+├── Phase_4_Project_Planning_Laptop_Procurement.pdf
+├── Phase_5_Project_Development_Laptop_Procurement.pdf
+├── Phase_6_Project_Testing_Laptop_Procurement.pdf
+├── Phase_7_Project_Documentation_Laptop_Procurement.pdf
+├── Phase_8_Project_Demonstration_Laptop_Procurement.pdf
+└── README.md
